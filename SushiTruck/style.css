@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'sf_wasabiregular';
+	src: url('fonts/sf_wasabi-webfont.woff2') format('woff2'),
+	     url('fonts/sf_wasabi-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+.banner-container {
+	width: 540px;
+    height: 670px;
+    background: #46c6d3;
+    margin: 0 auto;
+}
+.banner-container h1 {
+	color: #fff;
+	font-family: sf_wasabiregular;
+	width: 303px;
+	margin: 166px 9%;
+	font-size: 38px;
+	position: absolute;
+	text-align: center;
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.44);
+}
+.banner-container h1 span {
+	font-size: 55px;
+}
+.banner-container canvas {
+	/*margin-top: 236px;*/
+	position: relative;
+	z-index: 20;
+}
+.sushi-img {
+	width: 150px;
+	position: absolute;
+	margin: 313px 166px;
+	z-index: 999;
+}
+.taoism-img,
+.shinto-img {
+	width: 223px;
+	position: absolute;
+	margin: 334px 3px;
+	z-index: 0;
+}
+.shinto-img {
+	margin: 382px 317px;
+}	
+.sushi-deco-img {
+	width: 40px;
+	margin: 529px 207px;
+	position: absolute;
+	z-index: 9999;
+}  
+.street {
+	width: 100%;
+	height: 100px;
+	background: #8e8a85;
+	margin-top: -104px;
+	z-index: 9;
+	position: relative;
+}
