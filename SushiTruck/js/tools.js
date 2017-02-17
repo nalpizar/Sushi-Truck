@@ -110,3 +110,7 @@ function createCanvas(x, y, w, h) {
 function randomBtween(max, min) {
     return Math.floor(Math.random() * (max - min) + min);
 }
+
+function randomBtweenFloat(max, min) {
+    return (Math.random() * (max - min) + min);
+}

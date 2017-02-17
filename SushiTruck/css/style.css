@@ -1,14 +1,13 @@
 @font-face {
 	font-family: 'sf_wasabiregular';
-	src: url('fonts/sf_wasabi-webfont.woff2') format('woff2'),
-	     url('fonts/sf_wasabi-webfont.woff') format('woff');
+	src: url('../fonts/sf_wasabi-webfont.woff2') format('woff2'),
+	     url('../fonts/sf_wasabi-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 
 }
+
 .banner-container {
-	width: 540px;
-    height: 670px;
     background: #46c6d3;
     margin: 0 auto;
 }
@@ -24,11 +23,6 @@
 }
 .banner-container h1 span {
 	font-size: 55px;
-}
-.banner-container canvas {
-	/*margin-top: 236px;*/
-	position: relative;
-	z-index: 20;
 }
 .sushi-img {
 	width: 150px;
@@ -59,4 +53,15 @@
 	margin-top: -104px;
 	z-index: 9;
 	position: relative;
+}
+
+canvas {
+	position: absolute;
+	background: transparent;
+}
+
+html, body {
+	background: #46c6d3;
+	margin: 0px;
+	padding: 0px;
 }
